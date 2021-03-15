@@ -77,9 +77,8 @@ p {
 /* Aside */
 .container-aside {
     position: absolute;
-    right: 440px;
-    margin: auto;
     top: 170px;
+    right: 420px;
 }
 .aside {
     background-color: #FFFF;
@@ -105,14 +104,9 @@ li a {
 li a:hover {
     text-decoration: underline;
 }
-footer {
-    text-align: center;
-}
+
 .footer-cont {
     font-size: 1.3em;
+    margin: 20px;
     text-align: center;
-    background-color: rgb(189, 189, 189);
-    padding: 10px;
-    margin: auto;
-    width: 65%;
 }
