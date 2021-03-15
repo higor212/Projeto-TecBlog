@@ -77,8 +77,9 @@ p {
 /* Aside */
 .container-aside {
     position: absolute;
-    left: 68%;
-    top: 15.1%;
+    right: 440px;
+    margin: auto;
+    top: 170px;
 }
 .aside {
     background-color: #FFFF;
