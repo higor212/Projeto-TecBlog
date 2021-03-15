@@ -1,0 +1,117 @@
+/* Limpar padrões da página */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+header {
+    background-color: #faaa17;
+    text-align: center;
+    padding-top: -23px;
+    padding-bottom: 23px;
+}
+
+/* Header */
+.logo {
+    padding: 25px;
+    font-size: 1.2em;
+    color: rgb(58, 58, 58)
+}
+.branco {
+    color: #fff;
+}
+.nav-bar {
+    padding: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #FFFF;
+}
+.container-header {
+    padding: 10px 0;
+}
+.nav-bar:hover {
+    background-color: #FFFF;
+    color: #faaa17;
+}
+/* Section */
+.container-sec {
+    padding: 30px;
+    width: 950px;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 0px auto;
+}
+img {
+    padding: 1px;
+    width: 100%;
+}
+.section {
+    margin-top: -20px;
+    background-color: #FFFF;
+    width: 750px;
+    padding: 30px;
+}
+.section-two {
+    background-color: #FFFF;
+    width: 750px;
+    margin: 25px 0px;
+    padding:30px;
+}
+p {
+    padding: 5px;
+}
+.titulo {
+    color: #faaa17;
+}
+.mais {
+    color: #faaa17;
+    text-decoration: none;
+}
+.mais:hover {
+    text-decoration: underline;
+}
+/* Aside */
+.container-aside {
+    position: absolute;
+    left: 68%;
+    top: 15.1%;
+}
+.aside {
+    background-color: #FFFF;
+    width: 200px;
+    padding: 18px;
+}
+.aside-two {
+    background-color: #FFFF;
+    width: 200px;
+    padding: 17px;
+    margin: 25px 0;
+}
+h3 {
+    background-color: #CCC;
+    font-weight: normal;
+    padding: 6px;
+}
+li a {
+    color: #faaa17;
+    padding: 1px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+}
+.footer-cont {
+    font-size: 1.3em;
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+    margin: auto;
+    width: 65%;
+}
